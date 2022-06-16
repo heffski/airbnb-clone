@@ -1,0 +1,112 @@
+/* NAVBAR */
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 0px;
+}
+.nav--icon {
+    height: auto;
+    max-width: 100px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 30px;
+}
+
+/* HERO */
+section {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.hero--title {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0px;
+}
+.hero--p {
+    font-weight:300;
+    font-size: 16px;
+    margin: 0px;
+    max-width: 320px;
+}
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+/* CARD */
+section {
+    padding: 20px;
+}
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    width: 176px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+.card--img {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.card--star {
+    padding: 0px 5px 0px 0px;
+    height: 14px;
+}
+.card--rating {
+    padding: 10px 0px 0px 0px;
+}
+.card--descr {
+    font-family: 'Poppins', serif;
+    font-variant: ;
+    font-size: 12px;
+    padding: 5px 0px;
+    margin: 0px;
+}
+.card--price {
+    font-size: 12px;
+    padding: 0px 0px;
+    margin: 0px;
+}
+.bold {
+    font-weight: 700;
+}
+
+  /* ESSENTIALS */
+
+.flex {
+    display: flex;
+}
+.row {
+    flex-direction: row;
+}
+.col {
+    flex-direction: column;
+}
+.jcc {
+    justify-content: center;
+}
+.acc {
+    align-content: center;
+}
+.aic {
+    align-items: center;
+}
